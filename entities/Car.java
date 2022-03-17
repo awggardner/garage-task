@@ -8,6 +8,11 @@ public class Car extends Vehicle {
 
 	public Car(int id, String model, String manufacturer, int carthing, String carthing2, int carthing3) {
 	    super(id, model, manufacturer); 
+	    this.carthing = carthing;
+	    this.carthing2 = carthing2;
+	    this.carthing3 = carthing3;
+	    
+	    
 
 	}
 	
