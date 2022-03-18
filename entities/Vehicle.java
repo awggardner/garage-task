@@ -37,4 +37,10 @@ public abstract class Vehicle {
 	public void setManufacturer(String manufacturer) {
 		this.manufacturer = manufacturer;
 	}
+	public abstract void add(Vehicle vehicle);
+	public abstract void remove(Vehicle vehicle);
+	
+	 @Override    public String toString() {
+	        return "Vehicle [id=" + id + ", model=" + model + ", manufacturer=" + manufacturer + "]";
+	    }
 }

@@ -13,7 +13,44 @@ public class Car extends Vehicle {
 	    this.carthing3 = carthing3;
 	    
 	    
+	    
 
+	}
+
+	public int getCarthing() {
+		return carthing;
+	}
+
+	public void setCarthing(int carthing) {
+		this.carthing = carthing;
+	}
+
+	public String getCarthing2() {
+		return carthing2;
+	}
+
+	public void setCarthing2(String carthing2) {
+		this.carthing2 = carthing2;
+	}
+
+	public int getCarthing3() {
+		return carthing3;
+	}
+
+	public void setCarthing3(int carthing3) {
+		this.carthing3 = carthing3;
+	}
+
+	@Override
+	public void add(Vehicle vehicle) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remove(Vehicle vehicle) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
